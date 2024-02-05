@@ -34,3 +34,16 @@ lsmod
 
 lsmod > file 
 
+4. Просмотреть информацию о процессоре и модулях оперативной памяти
+
+sudo lscpu > file1
+
+Опреативная память
+
+sudo lshw -class memory > file2
+
+5. Получить информацию о жестком диске
+
+
+sudo fdisk -l > file3
+
