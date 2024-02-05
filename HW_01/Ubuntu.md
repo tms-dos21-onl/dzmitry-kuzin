@@ -5,5 +5,6 @@
 
 
 Установить часовой пояс
+
 timedatectl set-timezone Europe/Minsk
 
