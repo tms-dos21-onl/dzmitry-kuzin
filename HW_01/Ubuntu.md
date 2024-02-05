@@ -10,4 +10,8 @@ timedatectl set-timezone Europe/Minsk
 
 Установить время:
 
-sudo timedatectl set-time 17:11:50
+sudo timedatectl -- set-time "17:11:50"
+
+Установить дату
+
+sudo timedatectl set-time "2024-02-05"
