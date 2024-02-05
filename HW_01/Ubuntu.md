@@ -47,5 +47,8 @@ sudo lshw -class memory > file2
 sudo fdisk -l > file3
 
 6. Добавить в виртуальную машину второй сетевой интерфейс (вывести информацию о нем в виртуалках)
+![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/954c077a-1fdc-4066-b846-62d2cdc48052)
+
+![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/24acc0a5-eb27-488a-ba76-8dacd9b3dfa5)
 
 
