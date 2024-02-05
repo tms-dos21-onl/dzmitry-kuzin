@@ -51,5 +51,8 @@ sudo fdisk -l > file3
 
 ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/2673a90d-941f-4f19-b1ca-57e170c31405)
 
+7. Узнать полную информацию об использованной и неиспользованной оперативной памяти
+
+![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/a0af40aa-81b2-4512-aa89-42559c6bcce6)
 
 
