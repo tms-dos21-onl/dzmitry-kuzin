@@ -14,7 +14,7 @@ sudo timedatectl -- set-time "17:11:50"
 
 Установить дату
 
-sudo timedatectl set-time "2024-02-05"
+sudo timedatectl -- set-time "2024-02-05"
 
 custom motd
 
