@@ -27,3 +27,7 @@ sudo nano /etc/motd
 ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/e4597cfe-e834-4761-8013-365c2c039b3a)
 
 3. Вывести список модулей ядра и записать в файл
+
+lsmod
+
+модули ядра згруженные в данный момент
