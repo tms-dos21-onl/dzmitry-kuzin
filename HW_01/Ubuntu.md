@@ -47,9 +47,35 @@ sudo lshw -class memory > file2
 sudo fdisk -l > file3
 
 6. Добавить в виртуальную машину второй сетевой интерфейс (вывести информацию о нем в виртуалках)
-![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/954c077a-1fdc-4066-b846-62d2cdc48052)
 
-![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/2673a90d-941f-4f19-b1ca-57e170c31405)
+kds@kds-virtual-machine:~$ ifconfig
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.145.129  netmask 255.255.255.0  broadcast 192.168.145.255
+        inet6 fe80::5ffd:15ec:5c9a:fd56  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:b9:13:a0  txqueuelen 1000  (Ethernet)
+        RX packets 804  bytes 507278 (507.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 542  bytes 100653 (100.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ens37: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.145.130  netmask 255.255.255.0  broadcast 192.168.145.255
+        inet6 fe80::37f:21ba:fc91:16d3  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:b9:13:aa  txqueuelen 1000  (Ethernet)
+        RX packets 163  bytes 32540 (32.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 123  bytes 18144 (18.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Локальная петля (Loopback))
+        RX packets 178  bytes 16802 (16.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 16802 (16.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
 
 7. Узнать полную информацию об использованной и неиспользованной оперативной памяти
 
