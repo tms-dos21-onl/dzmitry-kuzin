@@ -49,6 +49,7 @@ sudo fdisk -l > file3
 6. Добавить в виртуальную машину второй сетевой интерфейс (вывести информацию о нем в виртуалках)
 
 kds@kds-virtual-machine:~$ ifconfig
+
 ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.145.129  netmask 255.255.255.0  broadcast 192.168.145.255
         inet6 fe80::5ffd:15ec:5c9a:fd56  prefixlen 64  scopeid 0x20<link>
