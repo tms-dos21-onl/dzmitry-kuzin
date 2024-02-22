@@ -48,18 +48,7 @@ sudo fdisk -l > file3
 
 6. Добавить в виртуальную машину второй сетевой интерфейс (вывести информацию о нем в виртуалках)
 
-![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/a51eb6d8-75fa-4889-830c-57b21a2a6d4b)
-
-
-lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
-        inet 127.0.0.1  netmask 255.0.0.0
-        inet6 ::1  prefixlen 128  scopeid 0x10<host>
-        loop  txqueuelen 1000  (Локальная петля (Loopback))
-        RX packets 178  bytes 16802 (16.8 KB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 178  bytes 16802 (16.8 KB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
+![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/ee7567e7-aab3-47b8-97bf-74e5da6b8c91)
 
 7. Узнать полную информацию об использованной и неиспользованной оперативной памяти
 
