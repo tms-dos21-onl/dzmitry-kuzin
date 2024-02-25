@@ -2,7 +2,7 @@
 
   - Добавил новый диск 10 Gb.
   
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/39f79bd5-aee5-4652-ba9c-4b0ca532d2a2)
+![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/39f79bd5-aee5-4652-ba9c-4b0ca532d2a2)
 
   - Разметил диск.
 
@@ -38,7 +38,7 @@
 
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
+   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
 
   Добавляем пользователя в группу birds
     
@@ -50,7 +50,7 @@
 
   - Cоздать директорию /var/wintering
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/75e92929-a405-4c5c-ab85-cdab354dde1f)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/75e92929-a405-4c5c-ab85-cdab354dde1f)
 
   - выдать права на нее только группе birds.
 
