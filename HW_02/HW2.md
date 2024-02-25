@@ -38,7 +38,11 @@
 
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
-   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
+
+  Добавляем пользователя в группу birds
+
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/d8c18d56-f167-4274-9e48-3b8ac5d893bb)
 
    
 
