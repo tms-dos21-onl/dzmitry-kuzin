@@ -62,11 +62,11 @@
 
 6. Установить ntpd (или chrony) и разрешить пользователю penguin выполнять команду systemctl restart chronyd (нужны права sudo).
 
-   - установка chrony
+  - установка chrony
   
-     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/9b152a20-0588-4511-828d-3d6aff84edae)
+    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/9b152a20-0588-4511-828d-3d6aff84edae)
 
-     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/95684339-774d-4f6f-8de3-1c5d4ffd9f6f)
+    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/95684339-774d-4f6f-8de3-1c5d4ffd9f6f)
 
 
 
