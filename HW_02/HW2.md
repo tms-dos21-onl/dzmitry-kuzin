@@ -48,6 +48,17 @@
 
 5. Cоздать директорию /var/wintering и выдать права на нее только группе birds.
 
+  - Cоздать директорию /var/wintering
+
+    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/75e92929-a405-4c5c-ab85-cdab354dde1f)
+
+  - выдать права на нее только группе birds.
+
+    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/3b977386-5db7-4ee0-8316-acb7497ec389)
+
+    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/78bbf2c6-2012-473b-a44c-d9aca7042f07)
+
+
    
    
 
