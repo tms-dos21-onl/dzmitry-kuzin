@@ -33,14 +33,13 @@
 ключ -d задаем базовый каталог для домашнего каталога
   
     результат
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/508a17bf-8b82-4e8c-bccf-6606347e792e)
+    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/508a17bf-8b82-4e8c-bccf-6606347e792e)
 
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
 
   Добавляем пользователя в группу birds
-
     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/d8c18d56-f167-4274-9e48-3b8ac5d893bb)
 
     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/bc528747-1c39-4397-98ca-81d578eab45f)
