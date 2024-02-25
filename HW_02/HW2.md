@@ -56,6 +56,8 @@
 
     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/3b977386-5db7-4ee0-8316-acb7497ec389)
 
+    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/6023378b-d5d3-49bc-849e-eac80631e64d)
+
     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/78bbf2c6-2012-473b-a44c-d9aca7042f07)
 
 
