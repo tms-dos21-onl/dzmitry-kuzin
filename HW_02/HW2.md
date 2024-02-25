@@ -16,17 +16,17 @@
 
   - Добавляем запись в /etc/fstab чтобы включить постоянное монтирование файловой системы.
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/b2112d69-5838-4fe6-9aac-1d68a2338b4b)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/b2112d69-5838-4fe6-9aac-1d68a2338b4b)
 
   - Монтирую все файловые ситемы перечисленные в /etc/fstab
   
     sudo mount -a
   
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/e2c068a3-a193-47fc-8e54-c5f913a018f7)
+   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/e2c068a3-a193-47fc-8e54-c5f913a018f7)
 
 3. Создать нового пользователя penguin с home-директорией /mnt/home/penguin.
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/52875733-d1c0-4b4f-bcb6-a629434952be)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/52875733-d1c0-4b4f-bcb6-a629434952be)
 
 ключ -m при создании пользователя задаем домашний каталог
 
@@ -38,7 +38,7 @@
 
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
-   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
 
   Добавляем пользователя в группу birds
     
@@ -54,19 +54,19 @@
 
   - выдать права на нее только группе birds.
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/3b977386-5db7-4ee0-8316-acb7497ec389)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/3b977386-5db7-4ee0-8316-acb7497ec389)
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/6023378b-d5d3-49bc-849e-eac80631e64d)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/6023378b-d5d3-49bc-849e-eac80631e64d)
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/78bbf2c6-2012-473b-a44c-d9aca7042f07)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/78bbf2c6-2012-473b-a44c-d9aca7042f07)
 
 6. Установить ntpd (или chrony) и разрешить пользователю penguin выполнять команду systemctl restart chronyd (нужны права sudo).
 
   - установка chrony
   
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/9b152a20-0588-4511-828d-3d6aff84edae)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/9b152a20-0588-4511-828d-3d6aff84edae)
 
-    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/95684339-774d-4f6f-8de3-1c5d4ffd9f6f)
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/95684339-774d-4f6f-8de3-1c5d4ffd9f6f)
 
 
 
