@@ -19,7 +19,9 @@
   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/b2112d69-5838-4fe6-9aac-1d68a2338b4b)
 
   - Монтирую все файловые ситемы перечисленные в /etc/fstab
+  
     sudo mount -a
+  
   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/e2c068a3-a193-47fc-8e54-c5f913a018f7)
 
 
