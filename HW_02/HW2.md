@@ -24,7 +24,17 @@
   
   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/e2c068a3-a193-47fc-8e54-c5f913a018f7)
 
+3. Создать нового пользователя penguin с home-директорией /mnt/home/penguin.
 
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/52875733-d1c0-4b4f-bcb6-a629434952be)
+
+ключ -m при создании пользователя задаем домашний каталог
+
+ключ -d задаем базовый каталог для домашнего каталога
+  
+  результат
+  
+  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/508a17bf-8b82-4e8c-bccf-6606347e792e)
 
 
    
