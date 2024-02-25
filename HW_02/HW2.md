@@ -60,6 +60,10 @@
 
     ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/78bbf2c6-2012-473b-a44c-d9aca7042f07)
 
+6. Установить ntpd (или chrony) и разрешить пользователю penguin выполнять команду systemctl restart chronyd (нужны права sudo).
+
+   
+
 
    
    
