@@ -34,6 +34,7 @@
   
     результат
     
+ 
   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/508a17bf-8b82-4e8c-bccf-6606347e792e)
 
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
