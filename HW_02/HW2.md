@@ -36,7 +36,7 @@
     
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
-   kds@kds-virtual-machine:~$ sudo groupadd birds
+    kds@kds-virtual-machine:~$ sudo groupadd birds
 
   Добавляем пользователя в группу birds
     
