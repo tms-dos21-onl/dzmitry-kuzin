@@ -68,6 +68,9 @@
 
   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/95684339-774d-4f6f-8de3-1c5d4ffd9f6f)
 
+  - Разрешить пользователю penguin выполнять команду systemctl restart chronyd
+
+  
 
 
    
