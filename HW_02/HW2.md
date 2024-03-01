@@ -32,7 +32,7 @@
 
 ключ -d задаем базовый каталог для домашнего каталога
   
-    результат
+    penguin:x:1001:1001::/mnt/home/penguin:/bin/sh
     
  
   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/508a17bf-8b82-4e8c-bccf-6606347e792e)
