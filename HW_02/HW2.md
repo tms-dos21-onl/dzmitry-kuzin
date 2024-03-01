@@ -36,23 +36,25 @@
     
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
+- Группа birds:
 
+      kds@kds-virtual-machine:~$ sudo groupadd birds
 
-    kds@kds-virtual-machine:~$ sudo groupadd birds
+- Добавляем пользователя в группу birds:
 
-  Добавляем пользователя в группу birds
-    
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/d8c18d56-f167-4274-9e48-3b8ac5d893bb)
+      kds@kds-virtual-machine:~$ sudo usermod -a -G birds penguin
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/bc528747-1c39-4397-98ca-81d578eab45f)
+      kds@kds-virtual-machine:~$ cat /etc/group | grep birds
+      birds:x:1002:penguin
+
 
 5. Cоздать директорию /var/wintering и выдать права на нее только группе birds.
 
-  - Cоздать директорию /var/wintering
+  - Cоздать директорию /var/wintering:
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/75e92929-a405-4c5c-ab85-cdab354dde1f)
+        kds@kds-virtual-machine:~$ sudo mkdir /var/wintering
 
-  - выдать права на нее только группе birds.
+  - выдать права на нее только группе birds:
 
   ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/3b977386-5db7-4ee0-8316-acb7497ec389)
 
