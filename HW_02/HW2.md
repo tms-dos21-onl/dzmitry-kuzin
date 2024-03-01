@@ -24,15 +24,15 @@
   
    ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/e2c068a3-a193-47fc-8e54-c5f913a018f7)
 
-3. Создать нового пользователя penguin с home-директорией /mnt/home/penguin.
+3. Создать нового пользователя penguin с home-директорией /mnt/home/penguin:
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/52875733-d1c0-4b4f-bcb6-a629434952be)
+        kds@kds-virtual-machine:~$ sudo useradd penguin -m -d /mnt/home/penguin
 
 ключ -m при создании пользователя задаем домашний каталог
 
 ключ -d задаем базовый каталог для домашнего каталога
 
-    penguin:x:1001:1001::/mnt/home/penguin:/bin/sh
+        penguin:x:1001:1001::/mnt/home/penguin:/bin/sh
     
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
@@ -56,23 +56,54 @@
 
   - выдать права на нее только группе birds:
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/3b977386-5db7-4ee0-8316-acb7497ec389)
+        kds@kds-virtual-machine:~$ sudo chgrp  birds /var/wintering/
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/6023378b-d5d3-49bc-849e-eac80631e64d)
+        kds@kds-virtual-machine:~$ sudo chmod 070 /var/wintering/
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/78bbf2c6-2012-473b-a44c-d9aca7042f07)
+        kds@kds-virtual-machine:~$ ls -la /var/ | grep wintering
+        d---rwx---  2 root birds    4096 фев 25 21:50 wintering
+
 
 6. Установить ntpd (или chrony) и разрешить пользователю penguin выполнять команду systemctl restart chronyd (нужны права sudo).
 
-  - установка chrony
+  - установка chrony:
   
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/9b152a20-0588-4511-828d-3d6aff84edae)
+        kds@kds-virtual-machine:~$ sudo apt install chrony
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/95684339-774d-4f6f-8de3-1c5d4ffd9f6f)
+        kds@kds-virtual-machine:~$ systemctl status chrony
+        chrony.service - chrony, an NTP client/server
+        Loaded: loaded (/lib/systemd/system/chrony.service; enabled; vendor preset>
+        Active: active (running) since Fri 2024-03-01 09:38:15 +03; 1h 2min ago
+        Docs: man:chronyd(8)
+        man:chronyc(1)
+        man:chrony.conf(5)
+        Process: 834 ExecStart=/usr/lib/systemd/scripts/chronyd-starter.sh $DAEMON_>
+        Main PID: 861 (chronyd)
+        Tasks: 2 (limit: 4554)
+        Memory: 2.2M
+        CPU: 228ms
+        CGroup: /system.slice/chrony.service
+        ├─861 /usr/sbin/chronyd -F 1
+        └─862 /usr/sbin/chronyd -F 1
+
 
   - Разрешить пользователю penguin выполнять команду systemctl restart chronyd
 
-  
+  Добавляем пользователя в группу sudo:
+
+        kds@kds-virtual-machine:~$ sudo usermod -aG sudo penguin
+
+  Переходим на пользователя penguin:
+
+        kds@kds-virtual-machine:~$ su - penguin
+        Пароль:
+        penguin@kds-virtual-machine:~$
+
+  Выполняем systemctl restart chronyd:
+
+        penguin@kds-virtual-machine:~$ sudo systemctl restart chrony
+
+        
 
 
    
