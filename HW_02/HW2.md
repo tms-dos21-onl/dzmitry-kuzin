@@ -36,7 +36,7 @@
     
 4. Создать новую группу пользователей birds, перенести в нее пользователя penguin.
 
-  ![изображение](https://github.com/tms-dos21-onl/dzmitry-kuzin/assets/157679153/402ddd26-d9f5-46ff-8d34-b1903207f7e7)
+   kds@kds-virtual-machine:~$ sudo groupadd birds
 
   Добавляем пользователя в группу birds
     
